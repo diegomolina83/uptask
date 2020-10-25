@@ -1,0 +1,31 @@
+{
+  "name": "uptask",
+  "version": "1.0.0",
+  "description": "Proyecto del curso de Node de udemy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegomolina83/uptask.git"
+  },
+  "author": "Diego Alejando Molina Fernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegomolina83/uptask/issues"
+  },
+  "homepage": "https://github.com/diegomolina83/uptask#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5",
+    "shortid": "^2.2.16",
+    "slug": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
